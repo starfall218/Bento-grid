@@ -7,32 +7,149 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Bento grid</title>
-
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/DM+Sans">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body {
+      background-color: rgb(219, 203, 203);
+    }
+    .maingrid {
+      display: grid;
+    }
+    div {
+      border-radius: 5px;
+    }
+    /*change fonts*/
+    .num1 {
+      background: hsl(255, 45%, 53%);
+      color: #fff;
+      font-family: lucida;
+      width: 350px;
+      text-align: center;
+    }
+    .num1 h1 {
+      line-height: 2rem;
+    }
+    .num1 #gold {
+      color: goldenrod;
+    }
+    .num1 img {
+      width: 150px;
+    }
+    .num1 i
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .num1 p {
+      margin-top: 7px;
+      margin-bottom: 2rem;
+    }
+    .num1a {
+      overflow: hidden;
+      background-color: #fff;
+      width: 170px;
+      align-items: center;
+    }
+    .num1a h1 {
+      text-wrap: wrap;
+      line-height: 23px;
+      font-size: 23px;
+      margin-top: 10px;
+      margin-left: 13px;
+    }
+    .num1a img {
+      margin-left: 13px;
+      margin-top: 10px;
+      width: 215px;
+    }
+    .num1b {
+      width: 170px;
+      height: 170px;
+      overflow: hidden;
+      background-color: rgb(247, 219, 98);
+    }
+    .num1b h1 {
+      line-height: 21px;
+      font-size: 23px;
+      margin-left: 13px;
+    }
+    .num1b img {
+      width: 130px;
+      margin-left: 13px;
+    }
+    .rightside {
+      background-color: rgb(222, 191, 240);
+      width: 170px;
+      height: 430px;
+      overflow: hidden;
+    }
+    .rightside h1 {
+      line-height: 20px;
+      font-size: 23px;
+    }
+    .rightside img {
+      width: 255px;
+    }
+    .rightside p {
+      margin-bottom: 30px;
+    }
+    .rightside h1, p, img {
+      margin-left: 13px;
+    }
   </style>
 </head>
 <body>
 
-  Social Media 10x Faster with AI
-  Over 4,000 5-star reviews
-
-  Manage multiple accounts and platforms.
-
-  Maintain a consistent posting schedule.
-
-  Schedule to social media.
-  Optimize post timings to publish content at the perfect time for your audience.
+  <div class="maingrid">
+    <div class="num1">
+      <h1>
+        Social Media <span id="gold">10x</span> 
+        <br>
+        <i>Faster</i> with AI
+      </h1>
+      <img src="assets/images/illustration-five-stars.webp">
+      <p>Over 4,000 5-star reviews</p>
+    </div>
   
-  Grow followers with non-stop content.
-
-  >56% faster audience growth
+   <div class="num1a">
+    <img src="assets/images/illustration-multiple-platforms.webp">
+    <h1>Manage
+      <br>
+         multiple 
+       <br> accounts and 
+       <br> platforms.</h1>
+   </div>
   
-  Create and schedule content quicker.
-
-  Write your content using AI.
+    <div class="num1b">
+      <h1>
+        Maintain a 
+        <br>consistent
+         <br>posting 
+         <br>schedule.
+      </h1>
+      <img src="assets/images/illustration-consistent-schedule.webp">
+    </div>
+  
+   <div class="rightside">
+    <h1>Schedule to <br>social media.</h1>
+    <img src="assets/images/illustration-schedule-posts.webp">
+    <p>Optimize post timings <br>to publish content at <br>the perfect time for <br>your audience.</p>
+    
+   </div>
+    
+   <div class="underight">
+    Grow followers with non-stop content.
+   </div>
+   <div class="centerbottom">
+    >56% faster audience growth
+   </div>
+    
+    <div class="leftside">
+      Create and schedule content quicker.
+    </div>
+    <div class="underleft">
+      Write your content using AI.
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
